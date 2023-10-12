@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visisbility and z-index</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 120px;
+            height: 120px;
+        }
+        #box1{
+            z-index: 22;
+            top: 49px;
+            position: relative;
+            background-color: navy;
+        }
+
+        
+        #box2{
+            z-index: 34;
+            top: 49px;
+            position: relative;
+            background-color: rgb(66, 66, 202);
+        }
+        
+        #box3{
+            /* display: none; */
+            /* visibility: hidden; */
+            background-color: rgb(140, 140, 233);
+        }
+        
+        #box4{
+            background-color: rgb(203, 203, 236);
+        }
+
+
+
+              /* FLEX BOX */
+        .container{
+            height: 350px;
+            width: 100%;
+            border: 1px solid black;
+            /* Initialize the container as a flexbox */
+            display: flex;
+            /* flex properties for flex container */
+            /* flex-direction: column,row,row-reverse,column-reverse; */
+            /* flex-wrap: wrap; */
+
+            /* direction+wrap=flex-flow */
+            /* flex-flow: column wrap; */
+
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+            /* align-items: center; */
+            /* align-items: end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+        }      
+        .bo{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            margin: 8px;
+            padding: 3px;
+        }
+        #bo1{
+            /* higher the order later it shows to the container */
+            /* order: 3; */
+            flex-grow: 1;
+            /* flex-shrink: 2; */
+            /* flex-basis: 200px; */
+            /* when flexdirection is set to on row it change width */
+            /* when flexdirection is set to on column it change hieght */
+        }
+        #bo2{
+            flex-grow: 2;
+            /* flex: 2 2 334px;(grow,shrink,basis) */
+            /* align-self: flex-end; */
+        }
+    </style>
+</head>
+<body>
+     <!-- VISIBILITY AND Z-INDEX -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <hr>
+
+
+    <h3>This is Flex Box content</h3>
+
+   
+            <!-- FLEX BOX -->
+       <div class="container">
+
+        <div class="bo" id="bo1">First Box</div>
+        <div class="bo" id="bo2">Second Box</div>
+        <div class="bo" id="bo3">Third Box</div>
+        <!-- <div class="bo" id="bo4">Fourth Box</div> -->
+        <!-- <div class="bo" id="bo5">Fifth Box</div> -->
+        <!-- <div class="bo" id="bo6">Sixth Box</div> -->
+       </div>     
+
+</body>
+</html>

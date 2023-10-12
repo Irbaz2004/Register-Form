@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/rbaz\ arsilmaz\ \(9\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+#navbar {
+    background-color:white;
+    margin: 13px 3px;
+    border-radius: 10px;
+    
+
+
+
+}
+
+#navbar ul {
+    overflow: auto;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 50px ;
+
+
+
+}
+
+#navbar li {
+    float: right;
+    list-style: none;
+
+
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 19px;
+
+}
+
+#navbar li a:hover {
+
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+#navbar #sky {
+    color: black;
+    cursor: pointer;
+
+}
+
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+form{
+    margin-left: 125px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 550px;
+    width: 600px;
+    background-image: url("/bg2\ \(1\).png");
+    /* background-color: rgb(55, 143, 151); */
+}
+h4{
+    font-family: 'PT Serif', serif;
+    margin-bottom: 20px;
+    margin-top: 12px ;
+}
+.name1{
+    
+    margin-top: -1x;
+}
+
+
+.dob{
+    margin-top: 20px;
+    padding-left: 1px;
+
+}
+
+.gen{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.mail{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.num{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+
+#h4
+{
+    font-family: 'PT Serif', serif;
+  margin-top: 22px;  
+}
+
+option{
+    background-color: rgb(16, 33, 49);
+    color:white;
+}
+
+
+.destination{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.pass{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.class{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.pay{
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.butn{
+    padding-top: 4px;
+    padding-left: 42px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.butn input{
+ 
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 37px ;
+    margin-right: 36px;
+    border-radius: 100px;
+
+}
+.butn input:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.cen{
+    padding-left: 20px;
+}
+
+footer{
+    padding-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+#fp{
+    
+    font-family: 'PT Serif', serif;
+    margin-top: 10px;
+}
+.fps{
+    font-family: 'PT Serif', serif;
+    padding: 20px 20px;
+    
+}

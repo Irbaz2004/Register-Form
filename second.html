@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans+Nabataean&family=Poppins:wght@300;400;500&family=Rubik+Iso&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="second.css">
+    <title>Skyview Register Form</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Contact Us</i></a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Airline</a></li>
+                <li><a href="#">Home</a></li>
+                <i id="sky" class="ri-flight-takeoff-line">Skyview</i>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Flight ticket registeration</h3>
+        <form action="#">
+            <h4>Personal Information:</h4>
+            <div class="name1">
+                First Name:<input type="text" placeholder="Entre your name">
+                Last Name:<input class="name2" type="text" placeholder="Entre your name">
+            </div>
+
+
+            <div class="dob">
+                DOB <input type="date" name="date" id="date">
+            </div>
+
+            <div class="gen">
+                Gender: Male<input type="radio" name="gen">Female <input type="radio" name="gen">
+            </div>
+
+            <div class="mail">
+                Email: <input type="email" name="mail" id="mail" placeholder="ex:joseph12@gmail.com">
+            </div>
+
+            <div class="num">
+                Passport Number :<input type="number" name="number" id="number" placeholder="For international Flight">
+            </div>
+
+            <h4 id="h4">Flight Details:</h4>
+            Departure Airport:<select name="slec" id="sele">
+                <option value="py">SELECT</option>
+                <option value="air">Indira Gandhi International Airport</option>
+                <option value="air">Mangalore International Airport</option>
+                <option value="air">Chennai International Airport</option>
+                <option value="air">Kannur International Airport</option>
+                <option value="air">Coimbatore International Airport</option>
+                <option value="air">Madurai International Airport</option>
+                <option value="air">Dabolim Airport</option>
+            </select>
+
+            Departure Date: <input type="date" name="date" id="date">
+
+
+            <div class="destination">
+
+                Destination Airport:<select name="course" id="COURSE">
+                    <option value="py">SELECT</option>
+                    <option value="air">Dubai International Airport</option>
+                    <option value="air">Los Angeles International Airport</option>
+                    <option value="air">Denver International Airport</option>
+                    <option value="air">Frankfurt Airport</option>
+                    <option value="air">Mexico City International Airport</option>
+                    <option value="air">Hamad International Airport</option>
+                    <option value="air">El Dorado International Airport</option>
+                </select>
+
+                Return Date: <input type="date" name="date" id="date">
+            </div>
+
+            <div class="pass">
+
+                Number of Passenger: <input type="number" name="pas" id="pas">
+            </div>
+
+            <div class="class">
+                Class: <select name="class" id="clas">
+                    <option value="py">SELECT</option>
+                    <option value="cls">Economy</option>
+                    <option value="cls">Business</option>
+                    <option value="cls">First</option>
+                </select>
+            </div>
+
+            <div class="pay">
+                Payment Method: <select name="pay" id="ment">
+                    <option value="py">SELECT</option>
+                    <option value="py">Visa</option>
+                    <option value="py">Paytm</option>
+                    <option value="py">jioMoney</option>
+                    <option value="py">MasterCard</option>
+                    <option value="py">Amex</option>
+                    <option value="py">RuPay</option>
+                </select>
+            </div>
+
+            <div class="butn">
+                <input type="submit">
+
+
+                <input type="reset">
+            </div>
+
+        </form>
+        <div class="cen">
+            <h4>Instructions:</h4>
+            <ul>
+                <li>Please fill out the form below to make a flight reservation.</li>
+                <li>All fields marked with an asterisk (*) are required.</li>
+                <li>Make sure to double-check your information before submitting.</li>
+                <li>For security purposes, do not share your payment information with anyone.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="fps">
+            <p> Privacy Policy </p>
+            <p> Terms of Service </p>
+            <p> Contact Us</p>
+            <p id="fp"> Explore the world with Skyview Airlines. © [2023] Skyview. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
